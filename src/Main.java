@@ -48,5 +48,20 @@ public class Main {
         else if (age > 24){
             System.out.println("ему пора ходить на работу.");
         }
-    }
+        System.out.println();
+        System.out.println("Задача 5");
+        System.out.println();
+        int kidAge = 12;
+        System.out.print("Если ребенку " + kidAge + " лет, то ");
+        if (kidAge <= 5){
+            System.out.println("он не может кататься на аттракционе.");
+        }
+        else if (kidAge > 5 && kidAge <= 14){
+            System.out.println("он может кататься только в сопровождении взрослого." +
+                    " Если взрослого нет, то кататься нельзя.");
+        }
+        else {
+            System.out.println("он может кататься без сопровождения взрослого.");
+        }
+   }
 }
