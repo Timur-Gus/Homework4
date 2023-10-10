@@ -10,5 +10,16 @@ public class Main {
         else {
             System.out.println("он не достиг совершеннолетия, нужно немного подождать");
         }
+        System.out.println();
+        System.out.println("Задача 2");
+        System.out.println();
+        int temp = 20;
+        System.out.print("На улице " + temp + " градусов, ");
+        if (temp > 5) {
+            System.out.println("можно идти без шапки");
+        }
+        else {
+            System.out.println("нужно надеть шапку");
+        }
     }
 }
