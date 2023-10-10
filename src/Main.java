@@ -21,5 +21,16 @@ public class Main {
         else {
             System.out.println("нужно надеть шапку");
         }
+        System.out.println();
+        System.out.println("Задача 3");
+        System.out.println();
+        int speed = 120;
+        System.out.print("Если скорость " + speed + ", то ");
+        if (speed > 60) {
+            System.out.println("придется заплатить штраф");
+        }
+        else {
+            System.out.println("можно ездить спокойно");
+        }
     }
 }
