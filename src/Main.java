@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
@@ -62,6 +64,19 @@ public class Main {
         }
         else {
             System.out.println("он может кататься без сопровождения взрослого.");
+        }
+        System.out.println();
+        System.out.println("Задача 6");
+        System.out.println();
+        int totalPassenger = 12;
+        if (totalPassenger < 60) {
+            System.out.println("В вагоне есть сидячие места: " + (60 - totalPassenger));
+        }
+        else if (totalPassenger >= 60 && totalPassenger < 102){
+            System.out.println("В вагоне нет сидячих мест. Есть стоячие места: " + (102 - totalPassenger));
+        }
+        else {
+            System.out.println("В вагоне нет мест.");
         }
    }
 }
